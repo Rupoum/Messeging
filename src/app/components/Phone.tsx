@@ -23,7 +23,7 @@ const Phone = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white font-sans">
+    <div className="h-fit bg-black text-white font-sans">
       {/* Header */}
       <header className="flex justify-between items-center p-5">
         <h1 className="text-3xl font-bold">Tappa!</h1>
