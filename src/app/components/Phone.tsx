@@ -73,7 +73,7 @@ const Phone = () => {
                   <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 <span className="ml-2">Mary:</span>
-                <span className="ml-1"> Let's discuss a new project!</span>
+                <span className="ml-1"> Let&apos;s discuss a new project!</span>
               </motion.div>
 
               <motion.div
