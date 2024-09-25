@@ -7,6 +7,7 @@ import iphone from "../../../public/assets/iphonePhone.png";
 import voice from "../../../public/assets/voice.png";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Navbar from "./Navbar";
 
 const Phone = () => {
   const chatBubbleVariants = {
@@ -25,12 +26,7 @@ const Phone = () => {
   return (
     <div className="h-fit bg-black text-white font-sans">
       {/* Header */}
-      <header className="flex justify-between items-center p-5">
-        <h1 className="text-3xl font-bold">Tappa!</h1>
-        <button className="bg-white text-black px-4 py-2 rounded-full">
-          Get started
-        </button>
-      </header>
+      <Navbar />
 
       {/* Main Section */}
       <div className="text-center py-20">
