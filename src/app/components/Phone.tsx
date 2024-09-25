@@ -55,10 +55,11 @@ const Phone = () => {
               alt="Phone mockup"
               width={450}
               height={800}
+              priority={true}
               className="rounded-lg"
             />
           </div>
-          <div className="absolute top-0 left-0 w-full h-full flex justify-between z-40">
+          <div className="absolute top-0 left-0 w-full h-full  sm:flex justify-between z-40 hidden">
             {/* Chat Bubbles */}
             <div className="flex flex-col items-start space-y-20">
               <motion.div
@@ -108,7 +109,7 @@ const Phone = () => {
             </div>
 
             {/* Other side with voice animation and translation toggle */}
-            <div className="flex flex-col items-start space-y-20 mr-28 ">
+            <div className="flex flex-col items-start space-y-20  md:mr-0 xl:mr-28">
               <motion.div
                 custom={3}
                 initial="hidden"
